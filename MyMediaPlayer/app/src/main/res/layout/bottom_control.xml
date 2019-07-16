@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#c99f9e9e">
+
+    <Button
+        android:id="@+id/btn_play"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="52dp"
+        android:layout_height="match_parent"
+        android:text="暂停" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:text="00:00/00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="84dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical" />
+
+
+    <Button
+        android:id="@+id/btn_setting"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="小屏" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="音量" />
+
+    <SeekBar
+        android:id="@+id/voiceBar"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="停止" />
+
+</LinearLayout>
